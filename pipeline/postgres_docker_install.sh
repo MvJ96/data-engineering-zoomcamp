@@ -4,4 +4,6 @@ docker run -it --rm \
   -e POSTGRES_DB="ny_taxi" \
   -v ny_taxi_postgres_data:/var/lib/postgresql \
   -p 5432:5432 \
+  --network=pg_network \
+  --name pgdatabase \
   postgres:18
