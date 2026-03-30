@@ -2,6 +2,8 @@ terraform/keys/my-creds.json
 
 # Local .terraform directories
 terraform/.terraform/
+terraform/keys
+*.terraform.lock.hcl*
 
 # .tfstate files
 *.tfstate
