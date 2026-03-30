@@ -1,5 +1,7 @@
+terraform/keys/my-creds.json
+
 # Local .terraform directories
-.terraform/
+terraform/.terraform/
 
 # .tfstate files
 *.tfstate
